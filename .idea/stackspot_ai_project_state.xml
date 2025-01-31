@@ -9,6 +9,7 @@
               <option name="conversationId" value="01JJW2JME7SJV2ECFYYQKQZMV9" />
               <option name="indexedFiles">
                 <map>
+                  <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/controllers/ProdutoController.java" value="44976" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/models/Cliente.java" value="2305" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/models/Produto.java" value="2125" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/repository/ClienteRepository.java" value="4640" />
