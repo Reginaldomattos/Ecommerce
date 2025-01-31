@@ -13,6 +13,7 @@
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/models/Produto.java" value="2125" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/repository/ClienteRepository.java" value="4640" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/repository/ProdutoRepository.java" value="3230" />
+                  <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/services/ClienteService.java" value="32772" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/services/ProdutoService.java" value="20640" />
                 </map>
               </option>
