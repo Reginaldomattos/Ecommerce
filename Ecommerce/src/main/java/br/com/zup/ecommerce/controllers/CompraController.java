@@ -19,14 +19,14 @@ public class CompraController {
     private CompraService compraService;
 
     @PostMapping
-    public Compra realizarCompra(@RequestBody Map<String, Object>) compraRequest) {
+    public Compra realizarCompra(@RequestBody Map<String, Object> compraRequest) {
         String cpf = (String) compraRequest.get("cpf");
         List<String> nomesProdutos = ((List<Map<String, String>>) compraRequest.get("produtos"))
                 .stream()
                 .map(produto -> produto.get("nome"))
                 .collect(Collectors.toList());
 
-        return compraService.realizarCompra((cpf, nomesProdutos));
+        return compraService.realizarCompra(cpf, nomesProdutos);
 
     }
 }
