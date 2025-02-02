@@ -1,4 +1,4 @@
-package br.com.zup.Ecommerce;
+package br.com.zup.ecommerce;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

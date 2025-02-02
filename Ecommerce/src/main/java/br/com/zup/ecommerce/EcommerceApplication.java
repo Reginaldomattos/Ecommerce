@@ -1,4 +1,4 @@
-package br.com.zup.Ecommerce;
+package br.com.zup.ecommerce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
