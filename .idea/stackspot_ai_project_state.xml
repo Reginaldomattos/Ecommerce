@@ -17,10 +17,11 @@
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/repository/ProdutoRepository.java" value="3230" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/services/ClienteService.java" value="57354" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/services/ProdutoService.java" value="20640" />
-                  <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/ecommerce/controllers/ProdutoController.java" value="13969" />
-                  <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/ecommerce/models/Compra.java" value="59305" />
+                  <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/ecommerce/controllers/ClienteController.java" value="116801" />
+                  <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/ecommerce/controllers/ProdutoController.java" value="115826" />
+                  <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/ecommerce/models/Compra.java" value="109612" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/ecommerce/repository/CompraRepository.java" value="62250" />
-                  <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/ecommerce/services/CompraService.java" value="77809" />
+                  <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/ecommerce/services/CompraService.java" value="108552" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/resources/application.properties" value="56165" />
                 </map>
               </option>
