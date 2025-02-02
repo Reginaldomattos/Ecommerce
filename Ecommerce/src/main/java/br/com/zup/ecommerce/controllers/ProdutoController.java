@@ -1,31 +1,24 @@
 package br.com.zup.ecommerce.controllers;
 
-import br.com.zup.ecommerce.models.Produto;
-import br.com.zup.ecommerce.services.ProdutoService;
+import br.com.zup.ecommerce.models.Cliente;
+import br.com.zup.ecommerce.services.ClienteService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
-@RequestMapping("/produtos")
-public class ProdutoController {
+@RequestMapping("/clientes")
+public class ClienteController {
     @Autowired
-    private ProdutoService produtoService;
-
-    @GetMapping
-    public List<Produto> listarTodos() {
-        return produtoService.listarTodos();
-    }
+    private ClienteService clienteService;
 
     @PostMapping
-    public Produto salvar(@RequestBody @Valid Produto produto) {
-        return produtoService.salvar(produto);
+    public Cliente salvar(@RequestBody @Valid Cliente cliente) {
+        return clienteService.salvar(cliente);
     }
 
-    @DeleteMapping("/{id}")
-    public void deletar(@PathVariable Long id) {
-        produtoService.deletar(id);
+    @GetMapping("/{cpf}")
+    public Cliente buscarPorCpf(@PathVariable String cpf) {
+        return clienteService.buscarPorCpf(cpf);
     }
 }
