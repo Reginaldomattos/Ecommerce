@@ -6,17 +6,19 @@ import br.com.zup.ecommerce.models.Produto;
 import br.com.zup.ecommerce.repository.ClienteRepository;
 import br.com.zup.ecommerce.repository.CompraRepository;
 import br.com.zup.ecommerce.repository.ProdutoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-
+@Service
 public class CompraService {
-
+    @Autowired
     private ClienteRepository clienteRepository;
-
+    @Autowired
     private ProdutoRepository produtoRepository;
-
+    @Autowired
     private CompraRepository compraRepository;
 
     public Compra realizarCompra(String cpf, List<String> nomesProdutos) {
