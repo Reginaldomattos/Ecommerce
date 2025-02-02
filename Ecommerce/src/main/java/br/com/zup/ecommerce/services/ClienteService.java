@@ -7,29 +7,18 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ClienteService {
-
-    private final ClienteRepository clienteRepository;
-
     @Autowired
-    public ClienteService(ClienteRepository clienteRepository) {
-        this.clienteRepository = clienteRepository;
-    }
+    private ClienteRepository clienteRepository;
 
-    public Cliente cadastrarCliente(Cliente cliente) {
-        validateClienteUniqueness(cliente);
+    public Cliente salvar(Cliente cliente) {
+        if (clienteRepository.findByCpf(cliente.getCpf()).isPresent()) {
+            throw new IllegalArgumentException("Cliente com o mesmo CPF já existe.");
+        }
         return clienteRepository.save(cliente);
     }
 
-    private void validateClienteUniqueness(Cliente cliente) {
-        boolean cpfExists = clienteRepository.existsByCpf(cliente.getCpf());
-        boolean emailExists = clienteRepository.existsByEmail(cliente.getEmail());
-
-        if (cpfExists) {
-            throw new IllegalArgumentException("Cliente com o mesmo CPF já cadastrado.");
-        }
-
-        if (emailExists) {
-            throw new IllegalArgumentException("Cliente com o mesmo email já cadastrado.");
-        }
+    public Cliente buscarPorCpf(String cpf) {
+        return clienteRepository.findByCpf(cpf)
+                .orElseThrow(() -> new IllegalArgumentException("Cliente não encontrado."));
     }
 }

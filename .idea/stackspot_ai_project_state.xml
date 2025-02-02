@@ -6,7 +6,7 @@
         <entry key="reginaldo.mattos@zup.com.br">
           <value>
             <ProjectStateData>
-              <option name="conversationId" value="01JK3HG74AJFRDWF8STPH8E3S1" />
+              <option name="conversationId" value="01JK3F7VHXF5VRRJAZSFJKTRK0" />
               <option name="indexedFiles">
                 <map>
                   <entry key="$PROJECT_DIR$/Ecommerce/pom.xml" value="16010" />
@@ -18,6 +18,8 @@
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/services/ClienteService.java" value="57354" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/Ecommerce/services/ProdutoService.java" value="20640" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/ecommerce/controllers/ProdutoController.java" value="13969" />
+                  <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/ecommerce/models/Compra.java" value="59305" />
+                  <entry key="$PROJECT_DIR$/Ecommerce/src/main/java/br/com/zup/ecommerce/repository/CompraRepository.java" value="62250" />
                   <entry key="$PROJECT_DIR$/Ecommerce/src/main/resources/application.properties" value="56165" />
                 </map>
               </option>
