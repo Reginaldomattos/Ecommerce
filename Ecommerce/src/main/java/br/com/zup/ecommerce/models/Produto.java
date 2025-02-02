@@ -101,4 +101,7 @@ public class Produto {
     public int hashCode() {
         return Objects.hash(id, nome, preco, quantidade);
     }
+
+    public void setQuantidade(int i) {
+    }
 }

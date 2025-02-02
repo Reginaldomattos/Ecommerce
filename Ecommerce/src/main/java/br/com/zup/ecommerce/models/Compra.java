@@ -45,4 +45,8 @@ public class Compra {
         this.dataCompra = dataCompra;
     }
 
+    public void setProdutos(List<Produto> produtos) {
+    }
+
+
 }

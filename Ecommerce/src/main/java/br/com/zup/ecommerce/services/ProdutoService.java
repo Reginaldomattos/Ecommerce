@@ -2,6 +2,7 @@ package br.com.zup.ecommerce.services;
 
 import br.com.zup.ecommerce.models.Produto;
 import br.com.zup.ecommerce.repository.ProdutoRepository;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -29,5 +30,15 @@ public class ProdutoService {
 
     public void deletar(Long id) {
         produtoRepository.deleteById(id);
+    }
+
+    public Produto cadastrarProduto(@Valid Produto produto) {
+
+        return produto;
+    }
+
+    public Produto realizarCompra(String nome, int quantidade) {
+
+        return null;
     }
 }
